@@ -363,7 +363,7 @@ function buildActivityObject(playingState) {
     state: string2Discord(artist),
     stateUrl: shareArtistPath.toWeb(),
     largeImageKey: albumArt,
-    largeImageText: `YandexMusicModClient ${config_js_1.config.modification.version}`,
+    largeImageText: `Без альбома`,
     largeImageUrl: GITHUB_LINK,
     startTimestamp,
     endTimestamp,
